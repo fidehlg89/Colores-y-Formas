@@ -73,10 +73,10 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Both.Designer.vb">
-      <DependentUpon>Both.vb</DependentUpon>
+    <Compile Include="FormasC.Designer.vb">
+      <DependentUpon>FormasC.vb</DependentUpon>
     </Compile>
-    <Compile Include="Both.vb">
+    <Compile Include="FormasC.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Main.vb">
@@ -115,8 +115,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Both.resx">
-      <DependentUpon>Both.vb</DependentUpon>
+    <EmbeddedResource Include="FormasC.resx">
+      <DependentUpon>FormasC.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Main.resx">
       <DependentUpon>Main.vb</DependentUpon>

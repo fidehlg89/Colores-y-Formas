@@ -23,71 +23,71 @@ Partial Class frm_Forms
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(frm_Forms))
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.btn_Triangle = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
+        Me.btn_Cuadrado = New System.Windows.Forms.Button()
+        Me.btn_Rectangulo = New System.Windows.Forms.Button()
+        Me.btn_Triangulo = New System.Windows.Forms.Button()
+        Me.btn_Circulo = New System.Windows.Forms.Button()
+        Me.btn_Estrella = New System.Windows.Forms.Button()
         Me.cmb_Menu = New System.Windows.Forms.ComboBox()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.lbl_Color = New System.Windows.Forms.Label()
+        Me.lbl_Forma = New System.Windows.Forms.Label()
         Me.lbl_Puntos = New System.Windows.Forms.Label()
         Me.Puntuacion = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
-        'Button1
+        'btn_Cuadrado
         '
-        Me.Button1.BackColor = System.Drawing.Color.White
-        Me.Button1.BackgroundImage = CType(resources.GetObject("Button1.BackgroundImage"), System.Drawing.Image)
-        Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button1.Location = New System.Drawing.Point(12, 92)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(144, 115)
-        Me.Button1.TabIndex = 0
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.btn_Cuadrado.BackColor = System.Drawing.Color.White
+        Me.btn_Cuadrado.BackgroundImage = CType(resources.GetObject("btn_Cuadrado.BackgroundImage"), System.Drawing.Image)
+        Me.btn_Cuadrado.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_Cuadrado.Location = New System.Drawing.Point(12, 92)
+        Me.btn_Cuadrado.Name = "btn_Cuadrado"
+        Me.btn_Cuadrado.Size = New System.Drawing.Size(144, 115)
+        Me.btn_Cuadrado.TabIndex = 0
+        Me.btn_Cuadrado.UseVisualStyleBackColor = False
         '
-        'Button2
+        'btn_Rectangulo
         '
-        Me.Button2.BackColor = System.Drawing.Color.White
-        Me.Button2.BackgroundImage = CType(resources.GetObject("Button2.BackgroundImage"), System.Drawing.Image)
-        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button2.Location = New System.Drawing.Point(329, 103)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(215, 104)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Tag = "Rectangulo"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.btn_Rectangulo.BackColor = System.Drawing.Color.White
+        Me.btn_Rectangulo.BackgroundImage = CType(resources.GetObject("btn_Rectangulo.BackgroundImage"), System.Drawing.Image)
+        Me.btn_Rectangulo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_Rectangulo.Location = New System.Drawing.Point(329, 103)
+        Me.btn_Rectangulo.Name = "btn_Rectangulo"
+        Me.btn_Rectangulo.Size = New System.Drawing.Size(215, 104)
+        Me.btn_Rectangulo.TabIndex = 1
+        Me.btn_Rectangulo.Tag = "Rectangulo"
+        Me.btn_Rectangulo.UseVisualStyleBackColor = False
         '
-        'btn_Triangle
+        'btn_Triangulo
         '
-        Me.btn_Triangle.BackColor = System.Drawing.SystemColors.Control
-        Me.btn_Triangle.BackgroundImage = CType(resources.GetObject("btn_Triangle.BackgroundImage"), System.Drawing.Image)
-        Me.btn_Triangle.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.btn_Triangle.Location = New System.Drawing.Point(181, 103)
-        Me.btn_Triangle.Name = "btn_Triangle"
-        Me.btn_Triangle.Size = New System.Drawing.Size(127, 92)
-        Me.btn_Triangle.TabIndex = 2
-        Me.btn_Triangle.UseVisualStyleBackColor = False
+        Me.btn_Triangulo.BackColor = System.Drawing.SystemColors.Control
+        Me.btn_Triangulo.BackgroundImage = CType(resources.GetObject("btn_Triangulo.BackgroundImage"), System.Drawing.Image)
+        Me.btn_Triangulo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_Triangulo.Location = New System.Drawing.Point(181, 103)
+        Me.btn_Triangulo.Name = "btn_Triangulo"
+        Me.btn_Triangulo.Size = New System.Drawing.Size(127, 92)
+        Me.btn_Triangulo.TabIndex = 2
+        Me.btn_Triangulo.UseVisualStyleBackColor = False
         '
-        'Button3
+        'btn_Circulo
         '
-        Me.Button3.BackgroundImage = CType(resources.GetObject("Button3.BackgroundImage"), System.Drawing.Image)
-        Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button3.Location = New System.Drawing.Point(25, 234)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(108, 110)
-        Me.Button3.TabIndex = 3
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btn_Circulo.BackgroundImage = CType(resources.GetObject("btn_Circulo.BackgroundImage"), System.Drawing.Image)
+        Me.btn_Circulo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_Circulo.Location = New System.Drawing.Point(25, 234)
+        Me.btn_Circulo.Name = "btn_Circulo"
+        Me.btn_Circulo.Size = New System.Drawing.Size(108, 110)
+        Me.btn_Circulo.TabIndex = 3
+        Me.btn_Circulo.UseVisualStyleBackColor = True
         '
-        'Button4
+        'btn_Estrella
         '
-        Me.Button4.BackgroundImage = CType(resources.GetObject("Button4.BackgroundImage"), System.Drawing.Image)
-        Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button4.Location = New System.Drawing.Point(181, 234)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(124, 110)
-        Me.Button4.TabIndex = 4
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.btn_Estrella.BackgroundImage = CType(resources.GetObject("btn_Estrella.BackgroundImage"), System.Drawing.Image)
+        Me.btn_Estrella.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.btn_Estrella.Location = New System.Drawing.Point(181, 234)
+        Me.btn_Estrella.Name = "btn_Estrella"
+        Me.btn_Estrella.Size = New System.Drawing.Size(124, 110)
+        Me.btn_Estrella.TabIndex = 4
+        Me.btn_Estrella.UseVisualStyleBackColor = True
         '
         'cmb_Menu
         '
@@ -108,15 +108,15 @@ Partial Class frm_Forms
         Me.Label1.TabIndex = 13
         Me.Label1.Text = "Seleccione la Forma correcta según se pida."
         '
-        'lbl_Color
+        'lbl_Forma
         '
-        Me.lbl_Color.AutoSize = True
-        Me.lbl_Color.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lbl_Color.Location = New System.Drawing.Point(212, 60)
-        Me.lbl_Color.Name = "lbl_Color"
-        Me.lbl_Color.Size = New System.Drawing.Size(75, 24)
-        Me.lbl_Color.TabIndex = 19
-        Me.lbl_Color.Text = "Forma"
+        Me.lbl_Forma.AutoSize = True
+        Me.lbl_Forma.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lbl_Forma.Location = New System.Drawing.Point(212, 60)
+        Me.lbl_Forma.Name = "lbl_Forma"
+        Me.lbl_Forma.Size = New System.Drawing.Size(75, 24)
+        Me.lbl_Forma.TabIndex = 19
+        Me.lbl_Forma.Text = "Forma"
         '
         'lbl_Puntos
         '
@@ -145,14 +145,14 @@ Partial Class frm_Forms
         Me.ClientSize = New System.Drawing.Size(556, 366)
         Me.Controls.Add(Me.lbl_Puntos)
         Me.Controls.Add(Me.Puntuacion)
-        Me.Controls.Add(Me.lbl_Color)
+        Me.Controls.Add(Me.lbl_Forma)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.cmb_Menu)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.btn_Triangle)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.btn_Estrella)
+        Me.Controls.Add(Me.btn_Circulo)
+        Me.Controls.Add(Me.btn_Triangulo)
+        Me.Controls.Add(Me.btn_Rectangulo)
+        Me.Controls.Add(Me.btn_Cuadrado)
         Me.Name = "frm_Forms"
         Me.Text = "Formas"
         Me.ResumeLayout(False)
@@ -160,14 +160,14 @@ Partial Class frm_Forms
 
     End Sub
 
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents btn_Triangle As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
+    Friend WithEvents btn_Cuadrado As Button
+    Friend WithEvents btn_Rectangulo As Button
+    Friend WithEvents btn_Triangulo As Button
+    Friend WithEvents btn_Circulo As Button
+    Friend WithEvents btn_Estrella As Button
     Friend WithEvents cmb_Menu As ComboBox
     Friend WithEvents Label1 As Label
-    Friend WithEvents lbl_Color As Label
+    Friend WithEvents lbl_Forma As Label
     Friend WithEvents lbl_Puntos As Label
     Friend WithEvents Puntuacion As Label
 End Class

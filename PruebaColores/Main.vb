@@ -11,7 +11,7 @@
     End Sub
 
     Private Sub Btn_Both_Click(sender As Object, e As EventArgs) Handles btn_Both.Click
-        Dim colorsformsForm As New frm_Both
+        Dim colorsformsForm As New frm_FormasC
         colorsformsForm.Show()
     End Sub
 End Class

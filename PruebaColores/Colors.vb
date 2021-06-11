@@ -39,7 +39,7 @@
                 Close()
                 formsForm.Show()
             Case 2
-                Dim colorsformsForm As New frm_Both
+                Dim colorsformsForm As New frm_FormasC
                 Close()
                 colorsformsForm.Show()
         End Select
