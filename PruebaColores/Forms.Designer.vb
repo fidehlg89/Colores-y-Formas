@@ -114,9 +114,8 @@ Partial Class frm_Forms
         Me.lbl_Forma.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_Forma.Location = New System.Drawing.Point(212, 60)
         Me.lbl_Forma.Name = "lbl_Forma"
-        Me.lbl_Forma.Size = New System.Drawing.Size(75, 24)
+        Me.lbl_Forma.Size = New System.Drawing.Size(0, 24)
         Me.lbl_Forma.TabIndex = 19
-        Me.lbl_Forma.Text = "Forma"
         '
         'lbl_Puntos
         '

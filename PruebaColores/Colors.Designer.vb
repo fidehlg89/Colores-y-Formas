@@ -133,9 +133,8 @@ Partial Class frm_Colors
         Me.lbl_Color.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_Color.Location = New System.Drawing.Point(192, 49)
         Me.lbl_Color.Name = "lbl_Color"
-        Me.lbl_Color.Size = New System.Drawing.Size(64, 24)
+        Me.lbl_Color.Size = New System.Drawing.Size(0, 24)
         Me.lbl_Color.TabIndex = 18
-        Me.lbl_Color.Text = "Color"
         '
         'lbl_Puntos
         '

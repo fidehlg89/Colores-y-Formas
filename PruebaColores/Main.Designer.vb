@@ -102,7 +102,7 @@ Partial Class frm_Main
         Me.Controls.Add(Me.btn_Colors)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "frm_Main"
-        Me.Text = ".:. Formas y Colores .:."
+        Me.Text = ".:. Formas con Colores .:."
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

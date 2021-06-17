@@ -114,9 +114,8 @@ Partial Class frm_FormasC
         Me.lbl_FormaC.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lbl_FormaC.Location = New System.Drawing.Point(243, 75)
         Me.lbl_FormaC.Name = "lbl_FormaC"
-        Me.lbl_FormaC.Size = New System.Drawing.Size(188, 24)
+        Me.lbl_FormaC.Size = New System.Drawing.Size(0, 24)
         Me.lbl_FormaC.TabIndex = 19
-        Me.lbl_FormaC.Text = "Formas y Colores"
         '
         'lbl_Puntos
         '
@@ -154,7 +153,7 @@ Partial Class frm_FormasC
         Me.Controls.Add(Me.btn_RectanguloC)
         Me.Controls.Add(Me.btn_CuadradoC)
         Me.Name = "frm_FormasC"
-        Me.Text = "Formas y Colores"
+        Me.Text = "Formas + Colores"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
